@@ -1,0 +1,1 @@
+../../../SUMCDVPlugins/SUMCDVPlugins/cordova-plugin-file-transfer/CDVFileTransfer.h

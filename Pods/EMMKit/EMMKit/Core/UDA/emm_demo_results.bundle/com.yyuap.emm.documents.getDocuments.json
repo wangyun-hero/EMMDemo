@@ -1,0 +1,33 @@
+{
+	"data": {
+		"msg": "数据查询成功",
+		"docs": [{
+                    "size": "1.8M",
+                    "title": "Build Server 操作手册",
+                    "type": "pdf",
+                    "url": "buildserver.pdf"
+                 },{
+                    "size": "1.8M",
+                    "title": "EMM 操作手册",
+                    "type": "pdf",
+                    "url": "EMM.pdf"
+                 },{
+                    "size": "1.6M",
+                    "title": "MA Server 操作手册",
+                    "type": "pdf",
+                    "url": "maserver.pdf"
+                 },{
+                    "size": "10.4M",
+                    "title": "studio 操作手册",
+                    "type": "pdf",
+                    "url": "studio.pdf"
+                 },{
+                    "size": "1.8M",
+                    "title": "iUAP Mobile产品展示",
+                    "type": "ppt",
+                    "url": "productshow.pptx"
+                 }],
+		"code": "1"
+	},
+	"tp": "none"
+}

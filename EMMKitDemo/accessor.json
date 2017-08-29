@@ -1,0 +1,149 @@
+{
+    "registerEMM": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/userservice/register"
+        }
+    },
+    "retrievePWD": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/userservice/getVerificationCode"
+        }
+    },
+    "confirmCode": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/userservice/confirmCode"
+        }
+    },
+    "resetPWD": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/userservice/resetPassword"
+        }
+    },
+    "modifyPWD": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/userservice/changePassword"
+        }
+    },
+    "MA_Register": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },
+    "MA_Login": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },
+    "MA_GetToken": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {   
+            "url": "${url_agent}/umserver/core"
+        }
+    },
+    "MA_VerifyCode": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },
+    "MA_ResetPassword": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },
+    "MA_UpdateUserInfo": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },"MA_verifyPhoneNum": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },"MA_registerVerifyCode": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },"MA_GetBleCardRandom": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },"MA_bandCard": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },"MA_onlineHelp": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    },"MA_onlineHelpList": {
+        "type": "HTTP",
+        "ios": {
+            "class": "HGHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/core"
+        }
+    }
+}

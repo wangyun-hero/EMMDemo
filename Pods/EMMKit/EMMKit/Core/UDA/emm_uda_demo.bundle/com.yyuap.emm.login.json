@@ -1,0 +1,44 @@
+{
+    "register": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.register.json"
+        }
+    },
+    "login": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.login.json"
+        }
+    },
+    "logout": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.logout.json"
+        }
+    },
+    "autofind": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.autofind.json"
+        }
+    },
+    "modifyPassword": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.modifyPassword.json"
+        }
+    },
+    "getUserInfo": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.getUserInfo.json"
+        }
+    },
+    "feedback": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.login.getUserInfo.json"
+        }
+    }
+}

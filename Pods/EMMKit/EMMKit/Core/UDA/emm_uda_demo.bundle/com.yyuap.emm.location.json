@@ -1,0 +1,38 @@
+{
+    "requestCommand": {
+        "type": "File",
+        "args": {
+            "filename": "login_requestCommand.json"
+        }
+    },
+    "sendLocationInfo": {
+        "type": "File",
+        "args": {
+            "filename": "login_sendLocationInfo.json"
+        }
+    },
+    "sendStrategyprogram": {
+        "type": "File",
+        "args": {
+            "filename": "login_sendStrategyprogram.json"
+        }
+    },
+    "sendResultfeedback": {
+        "type": "File",
+        "args": {
+            "filename": "login_sendResultfeedback.json"
+        }
+    },
+    "sendRunningfeedback": {
+        "type": "File",
+        "args": {
+            "filename": "login_sendRunningfeedback.json"
+        }
+    },
+    "sendWifiInfo": {
+        "type": "File",
+        "args": {
+            "filename": "login_sendWifiInfo.json"
+        }
+    }
+}

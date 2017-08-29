@@ -1,0 +1,22 @@
+ [
+ 	[{
+ 		"title": "自动登录",
+ 		"icon": "emm_more_autoLogin.png",
+ 		"type": "switch",
+ 		"switch_key": "autoLogin"
+ 	}, {
+ 		"title": "修改密码",
+ 		"icon": "emm_more_modifyPW.png",
+ 		"segue": {
+ 			"type": "native",
+ 			"class": "EMMPasswordViewController"
+ 		}
+ 	}, {
+ 		"title": "问题反馈",
+ 		"icon": "emm_more_feedback.png",
+ 		"segue": {
+ 			"type": "native",
+ 			"class": "EMMFeedbackViewController"
+ 		}
+ 	}]
+ ]

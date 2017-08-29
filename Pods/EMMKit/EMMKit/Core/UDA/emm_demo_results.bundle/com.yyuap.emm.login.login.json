@@ -1,0 +1,16 @@
+{
+    "data":{
+        "actionid":"",
+        "callback":"",
+        "code":"1",
+        "msg":"成功",
+        "resultctx":{
+            "massotoken" : "3fd4b60e-a3f9-4bd0-9217-13a444f0d3d9",
+            "resultcode":"1",
+            "resultmsg":"成功",
+            "user":"zm",
+            "userid":"zm"
+        }
+    },
+    "tp":"des"
+}

@@ -1,0 +1,56 @@
+{
+    "requestCommand": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLocationHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/command/action/${UUID}"
+        }
+    },
+    "sendLocationInfo": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLocationHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/geo/report"
+        }
+    },
+    "sendStrategyprogram": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLocationHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/push/installProfile"
+        }
+    },
+    "sendResultfeedback": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLocationHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/push/profileList"
+        }
+    },
+    "sendRunningfeedback": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLocationHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/push/deviceInformation"
+        }
+    },
+    "sendWifiInfo": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLocationHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/push/updatewifi"
+        }
+    }
+}

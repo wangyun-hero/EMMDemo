@@ -1,0 +1,7 @@
+{
+    "throwable" : null,
+    "message" : null,
+    "data" : "{\"config_cloud_corpcode\":\"default\",\"config_cloud_url\":\"http:\/\/10.1.78.70:8080\",\"config_agent_url\":\"http:\/\/10.1.78.70:8090\",\"config_ma_url\":\"http:\/\/172.20.6.44:7070\"}",
+    "status" : 1,
+    "success" : true
+}

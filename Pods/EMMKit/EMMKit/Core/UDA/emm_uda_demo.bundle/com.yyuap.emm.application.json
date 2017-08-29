@@ -1,0 +1,8 @@
+{
+	"getApplications": {
+		"type": "File",
+		"args": {
+			"filename": "com.yyuap.emm.application.getApplications.json"
+		}
+	}
+}

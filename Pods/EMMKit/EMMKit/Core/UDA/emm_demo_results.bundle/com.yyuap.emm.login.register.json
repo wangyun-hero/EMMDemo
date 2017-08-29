@@ -1,0 +1,16 @@
+{
+    "data" : {
+        "status" : null,
+        "maport" : 0,
+        "maip" : null,
+        "code" : "1",
+        "resultctx" : {
+            "flag" : "1",
+            "desc" : "成功"
+        },
+        "msg" : "true",
+        "callback" : "",
+        "actionid" : ""
+    },
+    "tp" : "none"
+}

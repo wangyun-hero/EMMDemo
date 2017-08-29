@@ -1,0 +1,49 @@
+{
+    "appname": "用友移动门户",
+    "icon": "xxx.jpg",
+    "version": "",
+    "login": {
+        "type": "native",
+        "class": "HGLoginViewController",
+    },
+    "tabs": [{
+        "title": "消息",
+        "icon": "消息_pic.png",
+        "selected-icon": "消息.png",
+        "textcolor":"#C6C6C6",
+        "textcolor-selected":"#095783",
+        "navigation-lineColor":"#e0e0e0",
+        "type": "native",
+        "class": "HGMessageMainViewController",
+      },{
+        "title": "应用",
+        "icon": "应用_pic.png",
+        "selected-icon": "应用.png",
+        "textcolor":"#C6C6C6",
+        "textcolor-selected":"#095783",
+        "navigation-lineColor":"#e0e0e0",
+        "type": "native",
+        "class": "HGAppCenterViewController",
+     }, {
+        "title": "客户服务",
+        "icon": "服务_pic.png",
+        "selected-icon": "服务.png",
+        "textcolor":"#C6C6C6",
+        "textcolor-selected":"#095783",
+        "navigation-lineColor":"#e0e0e0",
+        "type": "native",
+        "class": "CustomerServiceViewController",
+    },{
+	    "title": "我",
+        "icon": "我_pic.png",
+        "selected-icon": "我.png",
+        "textcolor":"#C6C6C6",
+        "textcolor-selected":"#095783",
+        "navigation-lineColor":"#e0e0e0",
+        "type": "native",
+        "class": "SettingsViewController",
+        "configs": {
+            "config_file": "settings.json"
+        }
+    }]
+}

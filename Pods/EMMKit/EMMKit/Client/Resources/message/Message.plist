@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>userId</key>
+		<string>00001</string>
+		<key>messageId</key>
+		<string>1</string>
+		<key>messageInfo</key>
+		<string>集团社交与协同平台与用友网络产品融合正式启动</string>
+		<key>messageDate</key>
+		<string>06月20日 08:30</string>
+		<key>messageImage</key>
+		<string>http://shenpi.yonyou.com/maupload/img/zxxw1.png</string>
+		<key>messageName</key>
+		<string>最新新闻</string>
+	</dict>
+	<dict>
+		<key>userId</key>
+		<string>00001</string>
+		<key>messageId</key>
+		<string>2</string>
+		<key>messageDate</key>
+		<string>下午 13:15</string>
+		<key>messageInfo</key>
+		<string>【用友网络】实施客开事业部诚聘：能力提升经历/最佳实践业务经理/外包业务经理</string>
+		<key>messageName</key>
+		<string>官网新闻</string>
+		<key>messageImage</key>
+		<string>http://shenpi.yonyou.com/maupload/img/gwxw1.png</string>
+	</dict>
+	<dict>
+		<key>userId</key>
+		<string>00001</string>
+		<key>messageId</key>
+		<string>3</string>
+		<key>messageName</key>
+		<string>发文</string>
+		<key>messageInfo</key>
+		<string>[股上市字]用友IUAP Mobile EMM V2.7上市通知</string>
+		<key>messageImage</key>
+		<string>http://shenpi.yonyou.com/maupload/img/fw.png</string>
+		<key>messageDate</key>
+		<string>06月14日 10:50</string>
+	</dict>
+	<dict>
+		<key>userId</key>
+		<string>00001</string>
+		<key>messageId</key>
+		<string>4</string>
+		<key>messageName</key>
+		<string>通知</string>
+		<key>messageInfo</key>
+		<string>用户新需求 NC移动新应用</string>
+		<key>messageDate</key>
+		<string>06月17日 13:34</string>
+		<key>messageImage</key>
+		<string>http://shenpi.yonyou.com/maupload/img/zxtz1.png</string>
+	</dict>
+</array>
+</plist>

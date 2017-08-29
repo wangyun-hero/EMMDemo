@@ -1,0 +1,66 @@
+{
+	"messages":[{
+		"messageName": "通知",
+		"messageInfo": "EMM服务器6月18停机维护",
+		"messageDate": "2016/09/11-15:32",
+		"messageImage": "emm_yx.png",
+		"appId": "1",
+		"isRead": 1
+	},{
+		"messageName": "通知",
+		"messageInfo": "EMM服务器停7月25机维护",
+		"messageDate": "2016/09/12-15:32",
+		"messageImage": "emm_yx.png",
+		"appId": "1",
+		"isRead": 1
+    },{
+        "messageName": "审批中心",
+        "messageInfo": "您提交的活动报销单已经审批",
+        "messageDate": "2016/09/01-15:32",
+        "messageImage": "emm_spzx.png",
+        "appId": "2",
+        "isRead": 1
+    },{
+        "messageName": "审批中心",
+        "messageInfo": "您提交的交通报销单已经审批",
+        "messageDate": "2016/09/11-5:32",
+        "messageImage": "emm_spzx.png",
+        "appId": "2",
+        "isRead": 1
+    },{
+        "messageName": "请假",
+        "messageInfo": "您提交的休假申请已经通过",
+        "messageDate": "2016/09/07-5:32",
+        "messageImage": "emm_qj.png",
+        "appId": "3",
+        "isRead": 1
+    },{
+        "messageName": "工作汇报",
+        "messageInfo": "您提交的工作汇报已经被批阅",
+        "messageDate": "2016/09/03-5:32",
+        "messageImage": "emm_gzhb.png",
+        "appId": "4",
+        "isRead": 1
+    },{
+        "messageName": "订单中心",
+        "messageInfo": "您有新的订单待处理",
+        "messageDate": "2016/08/14-5:32",
+        "messageImage": "emm_ddzx.png",
+        "appId": "5",
+        "isRead": 1
+    },{
+        "messageName": "投票",
+        "messageInfo": "您参与的投票已经完成,请查看投票结果",
+        "messageDate": "2016/09/01-5:32",
+        "messageImage": "emm_tp.png",
+        "appId": "6",
+        "isRead": 1
+    },{
+        "messageName": "会议通知",
+        "messageInfo": "您有新的会议需要参加,点击查看详情",
+        "messageDate": "2016/08/01-5:32",
+        "messageImage": "emm_hytz.png",
+        "appId": "7",
+        "isRead": 1
+    }]
+}

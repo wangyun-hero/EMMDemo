@@ -1,0 +1,11 @@
+{
+    "getDocuments": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMDocsHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/document/getdocs"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomerServiceViewController">
+            <connections>
+                <outlet property="collectionView" destination="zTY-Vn-CWR" id="OYz-Tq-F9p"/>
+                <outlet property="hotlineTelBtn" destination="pOa-dt-bao" id="XQv-Tr-Pgn"/>
+                <outlet property="onlineHelpBtn" destination="Kyf-xi-Qse" id="u03-5n-5Sr"/>
+                <outlet property="topView" destination="dE1-AT-Ktm" id="tkB-Xm-Cll"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dE1-AT-Ktm">
+                    <rect key="frame" x="15" y="10" width="345" height="30"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyf-xi-Qse">
+                            <rect key="frame" x="172.5" y="0.0" width="172.5" height="30"/>
+                            <color key="backgroundColor" red="0.90326456030000002" green="0.90326456030000002" blue="0.90326456030000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="在线帮助">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickedOnlineHelpBtn:" destination="-1" eventType="touchUpInside" id="N0Y-8g-B6t"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOa-dt-bao">
+                            <rect key="frame" x="0.0" y="0.0" width="172.5" height="30"/>
+                            <color key="backgroundColor" red="0.90326456031307545" green="0.90326456031307545" blue="0.90326456031307545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="热线电话">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickedHotlineTelBtn:" destination="-1" eventType="touchUpInside" id="sdV-9A-gEZ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Kyf-xi-Qse" firstAttribute="leading" secondItem="pOa-dt-bao" secondAttribute="trailing" id="1jS-WP-POD"/>
+                        <constraint firstAttribute="trailing" secondItem="Kyf-xi-Qse" secondAttribute="trailing" id="D3f-cB-w58"/>
+                        <constraint firstItem="pOa-dt-bao" firstAttribute="top" secondItem="dE1-AT-Ktm" secondAttribute="top" id="FWq-d4-kMF"/>
+                        <constraint firstItem="pOa-dt-bao" firstAttribute="leading" secondItem="dE1-AT-Ktm" secondAttribute="leading" id="GjL-HJ-ayY"/>
+                        <constraint firstItem="Kyf-xi-Qse" firstAttribute="leading" secondItem="pOa-dt-bao" secondAttribute="trailing" id="Ift-b0-mYr"/>
+                        <constraint firstAttribute="bottom" secondItem="Kyf-xi-Qse" secondAttribute="bottom" id="K3t-qe-8BF"/>
+                        <constraint firstItem="Kyf-xi-Qse" firstAttribute="width" secondItem="pOa-dt-bao" secondAttribute="width" id="Rc5-ew-bTN"/>
+                        <constraint firstAttribute="height" constant="30" id="kO9-MO-noO"/>
+                        <constraint firstItem="Kyf-xi-Qse" firstAttribute="top" secondItem="dE1-AT-Ktm" secondAttribute="top" id="rUg-sd-IEQ"/>
+                        <constraint firstAttribute="bottom" secondItem="pOa-dt-bao" secondAttribute="bottom" id="u54-Ua-abu"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zTY-Vn-CWR">
+                    <rect key="frame" x="0.0" y="50" width="375" height="568"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ve2-OY-qGq">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="N2D-Zw-j52"/>
+                        <outlet property="delegate" destination="-1" id="Mg2-Sn-Aki"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zTY-Vn-CWR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GWE-sf-8wZ"/>
+                <constraint firstItem="zTY-Vn-CWR" firstAttribute="top" secondItem="dE1-AT-Ktm" secondAttribute="bottom" constant="10" id="KTu-4j-0M4"/>
+                <constraint firstItem="dE1-AT-Ktm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="SQt-58-sEj"/>
+                <constraint firstAttribute="trailing" secondItem="zTY-Vn-CWR" secondAttribute="trailing" id="fsE-yY-347"/>
+                <constraint firstAttribute="bottom" secondItem="zTY-Vn-CWR" secondAttribute="bottom" constant="49" id="hgB-7y-hXJ"/>
+                <constraint firstAttribute="trailing" secondItem="dE1-AT-Ktm" secondAttribute="trailing" constant="15" id="mbl-XP-WuG"/>
+                <constraint firstItem="dE1-AT-Ktm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="zJy-7s-793"/>
+            </constraints>
+            <point key="canvasLocation" x="31.5" y="91.5"/>
+        </view>
+    </objects>
+</document>

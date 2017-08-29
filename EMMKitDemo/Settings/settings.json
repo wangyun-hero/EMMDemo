@@ -1,0 +1,41 @@
+[
+    [  {
+          "title": "个人信息",
+          "icon": "个人信息.png",
+          "segue": {
+               "type": "native",
+               "class": "ModifyPasswordViewController"
+          }
+     },{
+          "title": "修改密码",
+          "icon": "修改密码.png",
+          "segue": {
+               "type": "native",
+               "class": "ModifyPasswordViewController"
+          }
+     }, {
+          "title": "问题反馈",
+          "icon": "问题反馈.png",
+          "segue": {
+               "type": "native",
+               "class": "EMMFeedbackViewController"
+          }
+      },{
+            "title": "打开多任务",
+            "icon": "打开多服务.png",
+     },{
+          "title": "权限说明",
+          "icon": "权限说明.png",
+          "segue": {
+               "type": "native",
+               "class": "HGAuthIntroduceController"
+          }
+     },{
+          "title": "关于门户",
+          "icon": "关于门户.png",
+    "segue": {
+      "type": "native",
+      "class": "HGAboutViewController"
+      }
+     }]
+]

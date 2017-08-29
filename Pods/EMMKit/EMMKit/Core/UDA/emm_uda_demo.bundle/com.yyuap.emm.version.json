@@ -1,0 +1,11 @@
+{
+    "getVersionInfo": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMVersionHTTPDataAccessor"
+        },
+        "args": {
+            "url": "http://${emm_host}:${emm_port}/mobem/app/appdetail"
+        }
+    }
+}

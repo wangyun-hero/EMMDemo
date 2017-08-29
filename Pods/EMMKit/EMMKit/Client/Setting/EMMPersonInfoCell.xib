@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="EMMPersonInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6K-gX-WFr">
+                        <rect key="frame" x="78" y="11" width="234" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIy-yg-FKz">
+                        <rect key="frame" x="16" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="x6K-gX-WFr" firstAttribute="leading" secondItem="TIy-yg-FKz" secondAttribute="trailing" constant="20" id="3gs-lp-yCd"/>
+                    <constraint firstItem="TIy-yg-FKz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="B1J-mE-v4F"/>
+                    <constraint firstItem="x6K-gX-WFr" firstAttribute="top" secondItem="TIy-yg-FKz" secondAttribute="top" id="IHT-Ao-EXZ"/>
+                    <constraint firstItem="TIy-yg-FKz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ItQ-PA-a4u"/>
+                    <constraint firstItem="TIy-yg-FKz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="K2y-F5-5up"/>
+                    <constraint firstAttribute="trailing" secondItem="x6K-gX-WFr" secondAttribute="trailing" constant="8" id="SBR-68-RKg"/>
+                    <constraint firstItem="x6K-gX-WFr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="YRL-36-K1D"/>
+                    <constraint firstAttribute="bottom" secondItem="x6K-gX-WFr" secondAttribute="bottom" constant="11.5" id="ZAX-Wp-Ln5"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="B1J-mE-v4F"/>
+                        <exclude reference="K2y-F5-5up"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLabel" destination="x6K-gX-WFr" id="kRL-8s-C6Z"/>
+                <outlet property="titleLabel" destination="TIy-yg-FKz" id="upG-4O-TPZ"/>
+            </connections>
+            <point key="canvasLocation" x="278" y="142"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,1 @@
+../../../SUMCDVPlugins/SUMCDVPlugins/cordova-plugin-globalization/CDVGlobalization.h

@@ -1,0 +1,1 @@
+../../../SUMCDVPlugins/SUMCDVPlugins/cordova-plugin-media-capture/CDVCapture.h

@@ -1,0 +1,83 @@
+{
+    "register": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/deviceinfo/report"
+        }
+    },
+    "login": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "${url_agent}/umserver/SSOLogin"
+        }
+    },
+    "logout": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/deviceinfo/logout"
+        }
+    },
+    "autofind": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/emmserver/config/list"
+        }
+    },
+    "modifyPassword": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/deviceinfo/updateuserpass"
+        }
+    },
+    "getUserInfo": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/deviceinfo/getUserInfo"
+        }
+    },
+    "feedback": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/problemFeedback/addProblem"
+        }
+    },
+    "modifyAvatar": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/userservice/updateImg"
+        }
+    },
+    "checkVersion": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMLoginHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/app/appdetail"
+        }
+    }
+}

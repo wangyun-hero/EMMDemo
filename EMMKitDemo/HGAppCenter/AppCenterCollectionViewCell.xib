@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lantinghei.TTF">
+            <string>FZLTHK--GBK1-0</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="AppCenterCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="65" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YLS-rI-2ff">
+                        <rect key="frame" x="5" y="8" width="55" height="55"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="1U3-Xd-ccq"/>
+                            <constraint firstAttribute="height" constant="55" id="nRQ-4U-lcY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvg-S6-8lf">
+                        <rect key="frame" x="5" y="71" width="55" height="14"/>
+                        <fontDescription key="fontDescription" name="FZLTHK--GBK1-0" family="FZLanTingHei-R-GBK" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="YLS-rI-2ff" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="70X-3L-0jd"/>
+                <constraint firstItem="nvg-S6-8lf" firstAttribute="leading" secondItem="YLS-rI-2ff" secondAttribute="leading" id="8Y6-xz-1EE"/>
+                <constraint firstItem="nvg-S6-8lf" firstAttribute="top" secondItem="YLS-rI-2ff" secondAttribute="bottom" constant="8" id="aYp-W0-hRC"/>
+                <constraint firstItem="YLS-rI-2ff" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="dtX-QX-bbB"/>
+                <constraint firstItem="nvg-S6-8lf" firstAttribute="trailing" secondItem="YLS-rI-2ff" secondAttribute="trailing" id="vh1-oA-j2H"/>
+            </constraints>
+            <size key="customSize" width="107" height="104"/>
+            <connections>
+                <outlet property="appIcon" destination="YLS-rI-2ff" id="RAM-J7-PQK"/>
+                <outlet property="appName" destination="nvg-S6-8lf" id="WN7-dD-OYf"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="212"/>
+        </collectionViewCell>
+    </objects>
+</document>

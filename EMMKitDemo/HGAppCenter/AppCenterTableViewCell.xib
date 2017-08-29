@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="263" id="KGk-i7-Jjw" customClass="AppCenterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="263"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="262.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="y9g-FD-rLb">
+                        <rect key="frame" x="0.0" y="30" width="321" height="212.5"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LvM-MX-aye">
+                            <size key="itemSize" width="50" height="130"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Wf-if-bMv">
+                        <rect key="frame" x="0.0" y="0.0" width="321" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SectionName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-T8-v9o">
+                                <rect key="frame" x="117" y="10" width="87" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iiw-QE-qrG">
+                                <rect key="frame" x="0.0" y="29" width="321" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="C4D-Ey-7QJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Iiw-QE-qrG" firstAttribute="leading" secondItem="1Wf-if-bMv" secondAttribute="leading" id="1UF-tD-vq7"/>
+                            <constraint firstAttribute="bottom" secondItem="Iiw-QE-qrG" secondAttribute="bottom" id="FE1-MU-ArC"/>
+                            <constraint firstItem="Qgh-T8-v9o" firstAttribute="centerX" secondItem="1Wf-if-bMv" secondAttribute="centerX" id="R7Q-5f-fN3"/>
+                            <constraint firstAttribute="height" constant="30" id="Zsj-A1-ehf"/>
+                            <constraint firstAttribute="trailing" secondItem="Iiw-QE-qrG" secondAttribute="trailing" id="sgD-DC-ix1"/>
+                            <constraint firstItem="Qgh-T8-v9o" firstAttribute="centerY" secondItem="1Wf-if-bMv" secondAttribute="centerY" constant="3" id="thm-0D-hqi"/>
+                        </constraints>
+                    </view>
+                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="RmM-r4-UyT">
+                        <rect key="frame" x="0.0" y="242.5" width="321" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="f8D-2W-mtr"/>
+                        </constraints>
+                    </pageControl>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="y9g-FD-rLb" firstAttribute="top" secondItem="1Wf-if-bMv" secondAttribute="bottom" id="0xa-7K-EIP"/>
+                    <constraint firstAttribute="bottom" secondItem="RmM-r4-UyT" secondAttribute="bottom" id="DdQ-ac-VRN"/>
+                    <constraint firstAttribute="trailing" secondItem="RmM-r4-UyT" secondAttribute="trailing" id="OiZ-qn-rI9"/>
+                    <constraint firstItem="y9g-FD-rLb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QTr-dZ-5Ae"/>
+                    <constraint firstAttribute="trailing" secondItem="y9g-FD-rLb" secondAttribute="trailing" id="Yys-Ha-Tfd"/>
+                    <constraint firstAttribute="trailing" secondItem="y9g-FD-rLb" secondAttribute="trailing" id="Zjx-k3-irC"/>
+                    <constraint firstAttribute="trailing" secondItem="1Wf-if-bMv" secondAttribute="trailing" id="hYl-P8-FEW"/>
+                    <constraint firstItem="1Wf-if-bMv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="hfS-dC-MIy"/>
+                    <constraint firstItem="RmM-r4-UyT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qr2-ha-FlX"/>
+                    <constraint firstItem="1Wf-if-bMv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tIR-Hk-XVO"/>
+                    <constraint firstItem="y9g-FD-rLb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ywC-8C-Mxf"/>
+                    <constraint firstItem="RmM-r4-UyT" firstAttribute="top" secondItem="y9g-FD-rLb" secondAttribute="bottom" id="zw6-EF-8vJ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Yys-Ha-Tfd"/>
+                        <exclude reference="ywC-8C-Mxf"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionView" destination="y9g-FD-rLb" id="224-NC-cpd"/>
+                <outlet property="pageControl" destination="RmM-r4-UyT" id="tHW-eo-xvA"/>
+                <outlet property="sectionTitle" destination="Qgh-T8-v9o" id="07p-O9-YhR"/>
+            </connections>
+            <point key="canvasLocation" x="258.5" y="298.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="line.png" width="8" height="2"/>
+    </resources>
+</document>

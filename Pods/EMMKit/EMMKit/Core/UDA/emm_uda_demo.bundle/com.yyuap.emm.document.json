@@ -1,0 +1,8 @@
+{
+    "getDocuments": {
+        "type": "File",
+        "args": {
+            "filename": "com.yyuap.emm.documents.getDocuments.json"
+        }
+    }
+}

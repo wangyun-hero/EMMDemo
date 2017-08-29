@@ -1,0 +1,11 @@
+{
+    "getApplications": {
+        "type": "HTTP",
+        "ios": {
+            "class": "EMMAppCenterHTTPDataAccessor"
+        },
+        "args": {
+            "url": "https://${emm_host}:${emm_port}/mobem/app/getapps"
+        }
+    }
+}

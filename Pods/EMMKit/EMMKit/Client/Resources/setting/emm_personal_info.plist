@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>code</key>
+	<string>0000000873</string>
+	<key>corpname</key>
+	<string>用友网络科技股份有限公司</string>
+	<key>deptname</key>
+	<string>iUAP移动平台产品部</string>
+	<key>email</key>
+	<string>zjx@yonyou.com</string>
+	<key>extra</key>
+	<dict>
+		<key>imuserid</key>
+		<string></string>
+		<key>iscollect</key>
+		<string>1</string>
+	</dict>
+	<key>gender</key>
+	<string>男</string>
+	<key>higher_name</key>
+	<string>彭立东</string>
+	<key>higher_uppk</key>
+	<string>00000000000000000225</string>
+	<key>id</key>
+	<string>00000000000000000583</string>
+	<key>jobname</key>
+	<string></string>
+	<key>juniorcount</key>
+	<string>14</string>
+	<key>leadername</key>
+	<string>张建新</string>
+	<key>leaderpk</key>
+	<string>00000000000000000583</string>
+	<key>mobile</key>
+	<string>13910425218</string>
+	<key>phone</key>
+	<string>35093</string>
+	<key>pk_dept</key>
+	<string>1001K6100000002C8KJ6</string>
+	<key>userid</key>
+	<string>1003AA1000000001972H</string>
+	<key>username</key>
+	<string>张建新</string>
+</dict>
+</plist>
